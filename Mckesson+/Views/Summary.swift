@@ -1,3 +1,5 @@
+// app
+
 import SwiftUI
 
 
@@ -36,7 +38,6 @@ struct Summary: View {
         .init(name: "John Lewis, 10:00am - 10:30am"),
         .init(name: "Nelson Robinson, 2:00pm - 2:15pm"),
     ]
-    
     
     var body: some View{
         NavigationStack{

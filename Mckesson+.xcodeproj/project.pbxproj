@@ -11,6 +11,7 @@
 		42044DA228DFF4BC0072AE75 /* Supplies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42044DA128DFF4BC0072AE75 /* Supplies.swift */; };
 		42044DA428DFF4C20072AE75 /* Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42044DA328DFF4C20072AE75 /* Summary.swift */; };
 		42044DA728DFF5FD0072AE75 /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42044DA628DFF5FD0072AE75 /* login.swift */; };
+		42044DA928E016C30072AE75 /* Mckesson+ in Resources */ = {isa = PBXBuildFile; fileRef = 42044DA828E016C30072AE75 /* Mckesson+ */; };
 		7D21939428DFDCD1008E2845 /* Mckesson_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D21939328DFDCD1008E2845 /* Mckesson_App.swift */; };
 		7D21939628DFDCD1008E2845 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D21939528DFDCD1008E2845 /* ContentView.swift */; };
 		7D21939828DFDCD3008E2845 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D21939728DFDCD3008E2845 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 		42044DA328DFF4C20072AE75 /* Summary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Summary.swift; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Views/Summary.swift"; sourceTree = "<group>"; };
 		42044DA528DFF5BE0072AE75 /* Mckesson+ */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Mckesson+"; sourceTree = SOURCE_ROOT; };
 		42044DA628DFF5FD0072AE75 /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = login.swift; path = "Mckesson+/Views/login.swift"; sourceTree = SOURCE_ROOT; };
+		42044DA828E016C30072AE75 /* Mckesson+ */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Mckesson+"; sourceTree = "<group>"; };
 		7D21939028DFDCD1008E2845 /* Mckesson+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mckesson+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D21939328DFDCD1008E2845 /* Mckesson_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mckesson_App.swift; sourceTree = "<group>"; };
 		7D21939528DFDCD1008E2845 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,7 +46,7 @@
 		7D21938728DFDCD1008E2845 = {
 			isa = PBXGroup;
 			children = (
-				7D21939228DFDCD1008E2845 /* Mckesson+ */,
+				7D21939228DFDCD1008E2845 /* Podfile */,
 				7D21939128DFDCD1008E2845 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,16 +59,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7D21939228DFDCD1008E2845 /* Mckesson+ */ = {
+		7D21939228DFDCD1008E2845 /* Podfile */ = {
 			isa = PBXGroup;
 			children = (
+				42044DA828E016C30072AE75 /* Mckesson+ */,
 				7D2193A128DFDDEF008E2845 /* Views */,
 				7D21939328DFDCD1008E2845 /* Mckesson_App.swift */,
 				7D21939528DFDCD1008E2845 /* ContentView.swift */,
 				7D21939728DFDCD3008E2845 /* Assets.xcassets */,
 				7D21939928DFDCD3008E2845 /* Preview Content */,
 			);
-			path = "Mckesson+";
+			path = Podfile;
 			sourceTree = "<group>";
 		};
 		7D21939928DFDCD3008E2845 /* Preview Content */ = {
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D21939B28DFDCD3008E2845 /* Preview Assets.xcassets in Resources */,
+				42044DA928E016C30072AE75 /* Mckesson+ in Resources */,
 				7D21939828DFDCD3008E2845 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

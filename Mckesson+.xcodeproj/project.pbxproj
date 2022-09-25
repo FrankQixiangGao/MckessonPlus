@@ -7,24 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42044DA028DFF49E0072AE75 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42044D9F28DFF49E0072AE75 /* Camera.swift */; };
+		42044DA228DFF4BC0072AE75 /* Supplies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42044DA128DFF4BC0072AE75 /* Supplies.swift */; };
+		42044DA428DFF4C20072AE75 /* Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42044DA328DFF4C20072AE75 /* Summary.swift */; };
+		42044DA728DFF5FD0072AE75 /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42044DA628DFF5FD0072AE75 /* login.swift */; };
 		7D21939428DFDCD1008E2845 /* Mckesson_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D21939328DFDCD1008E2845 /* Mckesson_App.swift */; };
 		7D21939628DFDCD1008E2845 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D21939528DFDCD1008E2845 /* ContentView.swift */; };
 		7D21939828DFDCD3008E2845 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D21939728DFDCD3008E2845 /* Assets.xcassets */; };
 		7D21939B28DFDCD3008E2845 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D21939A28DFDCD3008E2845 /* Preview Assets.xcassets */; };
-		7D2193AB28DFDFB8008E2845 /* Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2193AA28DFDFB8008E2845 /* Summary.swift */; };
-		7D2193AD28DFDFD6008E2845 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2193AC28DFDFD6008E2845 /* Camera.swift */; };
-		7D2193AF28DFDFF1008E2845 /* Supplies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2193AE28DFDFF1008E2845 /* Supplies.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42044D9F28DFF49E0072AE75 /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Camera.swift; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Views/Camera.swift"; sourceTree = "<group>"; };
+		42044DA128DFF4BC0072AE75 /* Supplies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Supplies.swift; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Views/Supplies.swift"; sourceTree = "<group>"; };
+		42044DA328DFF4C20072AE75 /* Summary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Summary.swift; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Views/Summary.swift"; sourceTree = "<group>"; };
+		42044DA528DFF5BE0072AE75 /* Mckesson+ */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Mckesson+"; sourceTree = SOURCE_ROOT; };
+		42044DA628DFF5FD0072AE75 /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = login.swift; path = "Mckesson+/Views/login.swift"; sourceTree = SOURCE_ROOT; };
 		7D21939028DFDCD1008E2845 /* Mckesson+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mckesson+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D21939328DFDCD1008E2845 /* Mckesson_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mckesson_App.swift; sourceTree = "<group>"; };
 		7D21939528DFDCD1008E2845 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7D21939728DFDCD3008E2845 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D21939A28DFDCD3008E2845 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7D2193AA28DFDFB8008E2845 /* Summary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Summary.swift; sourceTree = "<group>"; };
-		7D2193AC28DFDFD6008E2845 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
-		7D2193AE28DFDFF1008E2845 /* Supplies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Supplies.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,7 @@
 		7D21939928DFDCD3008E2845 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				42044DA528DFF5BE0072AE75 /* Mckesson+ */,
 				7D21939A28DFDCD3008E2845 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -77,9 +81,10 @@
 		7D2193A128DFDDEF008E2845 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				7D2193AA28DFDFB8008E2845 /* Summary.swift */,
-				7D2193AC28DFDFD6008E2845 /* Camera.swift */,
-				7D2193AE28DFDFF1008E2845 /* Supplies.swift */,
+				42044DA628DFF5FD0072AE75 /* login.swift */,
+				42044DA128DFF4BC0072AE75 /* Supplies.swift */,
+				42044DA328DFF4C20072AE75 /* Summary.swift */,
+				42044D9F28DFF49E0072AE75 /* Camera.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -154,10 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D2193AD28DFDFD6008E2845 /* Camera.swift in Sources */,
-				7D2193AB28DFDFB8008E2845 /* Summary.swift in Sources */,
-				7D2193AF28DFDFF1008E2845 /* Supplies.swift in Sources */,
+				42044DA228DFF4BC0072AE75 /* Supplies.swift in Sources */,
+				42044DA728DFF5FD0072AE75 /* login.swift in Sources */,
+				42044DA028DFF49E0072AE75 /* Camera.swift in Sources */,
 				7D21939628DFDCD1008E2845 /* ContentView.swift in Sources */,
+				42044DA428DFF4C20072AE75 /* Summary.swift in Sources */,
 				7D21939428DFDCD1008E2845 /* Mckesson_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

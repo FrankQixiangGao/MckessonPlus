@@ -1,14 +1,20 @@
+//
+//  login.swift
+//  Mckesson+
+//
+//  Created by Maxwell Ibarra on 9/24/22.
+//
 
 import SwiftUI
 
-struct ContentView: View{
-    
-    //start login
+
+struct login: View {
     @State private var username = ""
     @State private var password = ""
     @State private var wrongUsername: Float = 0
     @State private var wrongPassword: Float  = 0
     @State private var showingLoginScreen = false
+    
     
     var body: some View {
         NavigationView {
@@ -21,7 +27,7 @@ struct ContentView: View{
                 Circle()
                     .scale(1.35)
                     .foregroundColor(.white)
-                
+
                 VStack {
                     Text("Login")
                         .font(.largeTitle)
@@ -34,7 +40,7 @@ struct ContentView: View{
                         .background(Color.black.opacity(0.05))
                         .cornerRadius(10)
                         .border(.red, width: CGFloat(wrongUsername))
-                    
+                        
                     
                     SecureField("Password", text: $password)
                         .padding()
@@ -45,7 +51,7 @@ struct ContentView: View{
                     
                     Button("Login") {
                         authenticateUser(username: username, password: password)
-                    }
+                        }
                     .foregroundColor(.white)
                     .frame(width: 300, height: 50)
                     .background(Color.blue)
@@ -53,7 +59,6 @@ struct ContentView: View{
                     
                     NavigationLink(destination: Text("You are logged in @\(username)"), isActive: $showingLoginScreen) {
                         EmptyView()
-                        
                     }
                 }
             }.navigationBarHidden(true)
@@ -74,37 +79,9 @@ struct ContentView: View{
         }
     }
 }
-    
-    struct navView: View{
-         var body: some View {
-             TabView{
-             if #available(iOS 15.0, *){
-                 Summary()
-                     .tabItem(){
-                     Image(systemName: "person.2.fill")
-                     Text("Summary")
-                     }
-                     Camera()
-                     .tabItem(){
-                     Image(systemName: "camera.fill")
-                     Text("Camera")
-                     }
-                     Supplies()
-                     .tabItem(){
-                     Image(systemName: "slider.horizontal.3")
-                     Text("Supplies")
-                     }
-                 }
-             }
-         }
+
+struct login_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
     }
-
-
-struct ContentView_Previews: PreviewProvider {
-        static var previews: some View {
-                ContentView()
-                navView()
-        }
 }
-
-

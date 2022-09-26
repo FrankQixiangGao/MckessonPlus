@@ -8,9 +8,9 @@ A Project for HackDFW 2022
 A App for Doctor to manage Patient's Information and Logistics Supplies
 
 TechStack:
-Swift
-SwiftUI
-MLKit
-MySql
-AWS
-Xcode
+Swift,
+SwiftUI,
+MLKit,
+MySql,
+AWS,
+Xcode,

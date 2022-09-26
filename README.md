@@ -43,5 +43,7 @@ We know that our target audience includes a large variety of people throughout t
 
 Using Swift and SwiftUI we were able to create a frontend that was tightly integrated with our backend and ML scripts. 
 
+![image](https://user-images.githubusercontent.com/67282772/192397104-9238640a-a922-4a1c-8046-03c377d58de2.png)
+Doctor creating a meeting with a patient
 
 
